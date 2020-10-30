@@ -4,11 +4,8 @@
     background-color: #111;
     top: 0px;
     left: 0px;
-    z-index: 1;
-    position: -webkit-sticky;
-    position: -webkit-sticky;
-    position: sticky; /* Werkt niet voor een reden */
-    
+    z-index: 2;
+    position: sticky;
 }
 
 .header a {
@@ -26,12 +23,29 @@
     margin: 0px;
 }
 
-.mainimage {
+.images {
     margin-top: 0px;
-    z-index: -1;
-    position: absolute;
-    height: auto;
+    z-index: 1;
+    position: relative;
+    height: 1px;
     background-color: #111;
+}
+
+.container {
+    margin-top: 0px;
+    width: 0 auto;
+    height: 150px;
+    background-color: #111;
+    margin-top: 928px;
+    z-index: 2;
+}
+
+.container p {
+    color: white;
+}
+
+.h2 {
+    color: white
 }
 
 html,body 
@@ -41,4 +55,12 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+}
+
+body {
+    color: white;
+}
+  
+h2 {
+    color: white;
 }
