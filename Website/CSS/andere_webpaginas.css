@@ -31,3 +31,15 @@
     font-size: 28px; /* De Groote van de text */
     padding: 0px 10px; /* Zorgt ervoor dat de text niet naast de navigatie balk zit */ 
 }
+
+.main img {
+    float: right;
+}
+
+.container {
+    width: 1912px;
+    height: 1031px;
+    background-color: #818181;
+    margin-top: -40px;
+    overflow-x: hidden;
+}
